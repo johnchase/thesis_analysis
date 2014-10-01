@@ -1,0 +1,49 @@
+Logging started at 09:09:24 on 30 Sep 2014
+QIIME version: 1.8.0-dev
+
+qiime_config values:
+pynast_template_alignment_fp	/Users/jc33/dependencies/data/core_set_aligned.fasta.imputed
+seconds_to_sleep	2
+torque_queue	friendlyq
+jobs_to_start	1
+cloud_environment	False
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/Users/jc33/.virtualenvs/qiime/gg_13_5_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/tmp/
+blastall_fp	/Users/jc33/blast-2.2.22/bin
+python_exe_fp	python
+sc_queue	all.q
+assign_taxonomy_reference_seqs_fp	/Users/jc33/.virtualenvs/qiime/gg_13_5_otus/rep_set/97_otus.fasta
+qiime_scripts_dir	/Users/jc33/.virtualenvs/qiime2/bin
+
+parameter file values:
+
+Input file md5 sums:
+../row_2_3_comps/output/row_23_filtered_800_table.biom: 8515cbebfb373ac02bd1e4b934a3d74f
+/Users/jc33/google_drive/thesis/thesis/analyses/thesis_analyses/master_period_1-2-3_map_5182014.txt: 0072a9fe25868c3cbc1cf2bbc15b97ee
+
+Executing commands.
+
+# Summarize OTU table by Category command 
+summarize_otu_by_cat.py -m /Users/jc33/google_drive/thesis/thesis/analyses/thesis_analyses/master_period_1-2-3_map_5182014.txt -i ../row_2_3_comps/output/row_23_filtered_800_table.biom -o ../row_2_3_comps/output/tax_summs/Row_otu_table.biom -c 'Row' 
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i ../row_2_3_comps/output/tax_summs/Row_otu_table.biom -o ../row_2_3_comps/output/tax_summs 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i ../row_2_3_comps/output/tax_summs/Row_otu_table_L2.txt,../row_2_3_comps/output/tax_summs/Row_otu_table_L3.txt,../row_2_3_comps/output/tax_summs/Row_otu_table_L4.txt,../row_2_3_comps/output/tax_summs/Row_otu_table_L5.txt,../row_2_3_comps/output/tax_summs/Row_otu_table_L6.txt -o ../row_2_3_comps/output/tax_summs/taxa_summary_plots/ 
+
+Stdout:
+
+Stderr:
+
+
+Logging stopped at 09:46:16 on 30 Sep 2014

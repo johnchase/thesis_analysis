@@ -1,0 +1,2 @@
+SampleID	flagstaff_1	flagstaff_2	flagstaff_3	san_diego_1	san_diego_2	san_diego_3	toronto_1	toronto_2	toronto_3	Unknown
+T3C.2.Dr.040	0.0120940756846758	0	0.007800284895082	0	0.0127754104087153	0	0	0	0	0.00275075747143704

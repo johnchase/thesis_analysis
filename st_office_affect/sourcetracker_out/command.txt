@@ -1,0 +1,1 @@
+/Library/Frameworks/R.framework/Resources/bin/exec/R --slave --vanilla --args -i /Users/jc33/google_drive/thesis/analysis/files/initial_steps/otu_table_mc2_w_tax_no_pynast_failures_filtered_2.txt -m /Users/jc33/google_drive/thesis/analysis/files/initial_steps/mapping_files/source_tracker_map_141108.txt -o sourcetracker_out

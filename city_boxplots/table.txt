@@ -1,0 +1,24 @@
+\begin{tabular}{lllrrrrrl}
+\toprule
+{} &          Group 1 &           Group 2 &  t statistic &  Parametric p-value &  Parametric p-value (Bonferroni-corrected) &  Nonparametric p-value &  Nonparametric p-value (Bonferroni-corrected) &        Location \\
+\midrule
+0  &  All within City &  All between City &    -7.472043 &        2.658951e-13 &                               2.658951e-13 &                  0.001 &                                         0.001 &    fall\_ceiling \\
+1  &  All within City &  All between City &    -2.757535 &        5.876472e-03 &                               5.876472e-03 &                  0.005 &                                         0.005 &      fall\_floor \\
+2  &  All within City &  All between City &    -4.461806 &        9.060849e-06 &                               9.060849e-06 &                  0.001 &                                         0.001 &       fall\_wall \\
+3  &  All within City &  All between City &    -3.519770 &        4.330866e-04 &                               4.330866e-04 &                  0.002 &                                         0.002 &  summer\_ceiling \\
+4  &  All within City &  All between City &   -23.274449 &       6.705309e-118 &                              6.705309e-118 &                  0.001 &                                         0.001 &    summer\_floor \\
+5  &  All within City &  All between City &    -6.363174 &        2.019371e-10 &                               2.019371e-10 &                  0.001 &                                         0.001 &     summer\_wall \\
+6  &  All within City &  All between City &    -4.971723 &        8.572356e-07 &                               8.572356e-07 &                  0.001 &                                         0.001 &         un\_fall \\
+7  &  All within City &  All between City &    -4.286069 &        1.904410e-05 &                               1.904410e-05 &                  0.001 &                                         0.001 &         un\_fall \\
+8  &  All within City &  All between City &    -4.521509 &        6.884093e-06 &                               6.884093e-06 &                  0.001 &                                         0.001 &         un\_fall \\
+9  &  All within City &  All between City &    -4.899110 &        9.718609e-07 &                               9.718609e-07 &                  0.001 &                                         0.001 &       un\_summer \\
+10 &  All within City &  All between City &   -32.921019 &       3.582558e-230 &                              3.582558e-230 &                  0.001 &                                         0.001 &       un\_summer \\
+11 &  All within City &  All between City &    -8.932470 &        4.520944e-19 &                               4.520944e-19 &                  0.001 &                                         0.001 &       un\_summer \\
+12 &  All within City &  All between City &   -18.186727 &        8.211220e-70 &                               8.211220e-70 &                  0.001 &                                         0.001 &       un\_winter \\
+13 &  All within City &  All between City &   -16.472765 &        1.022169e-58 &                               1.022169e-58 &                  0.001 &                                         0.001 &       un\_winter \\
+14 &  All within City &  All between City &   -11.806663 &        4.337237e-31 &                               4.337237e-31 &                  0.001 &                                         0.001 &       un\_winter \\
+15 &  All within City &  All between City &   -12.937972 &        3.424911e-37 &                               3.424911e-37 &                  0.001 &                                         0.001 &  winter\_ceiling \\
+16 &  All within City &  All between City &    -7.677767 &        2.101731e-14 &                               2.101731e-14 &                  0.001 &                                         0.001 &    winter\_floor \\
+17 &  All within City &  All between City &    -6.869789 &        8.698070e-12 &                               8.698070e-12 &                  0.001 &                                         0.001 &     winter\_wall \\
+\bottomrule
+\end{tabular}
